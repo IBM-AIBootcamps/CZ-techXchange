@@ -30,9 +30,10 @@ Through a series of exercises, you will learn how to:
   - [Conclusion](#conclusion)
   - [Additional Resources](#additional-resources)
 
-## Prerequisites
+## Environment access
+TBA
 
-You must have access to a watsonx.ai SaaS environment and an initialized project within that environment. If you do not have one already, it can be provisioned on [TechZone](https://techzone.ibm.com/collection/tech-zone-certified-base-images/journey-watsonx) by selecting the **watsonx.ai/.governance SaaS** environment and selecting **Education** as **Purpose**.
+<!-- You must have access to a watsonx.ai SaaS environment and an initialized project within that environment. If you do not have one already, it can be provisioned on [TechZone](https://techzone.ibm.com/collection/tech-zone-certified-base-images/journey-watsonx) by selecting the **watsonx.ai/.governance SaaS** environment and selecting **Education** as **Purpose**. -->
 
 
 ## Lab Objectives
