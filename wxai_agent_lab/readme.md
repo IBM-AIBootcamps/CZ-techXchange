@@ -32,7 +32,10 @@ Through a series of exercises, you will learn how to:
 
 ## Environment access
 TBA
-
+ - TBA
+ - On the IBM watsonx.ai welcome screen, scroll down and click the plus button in the projects section to create a project.
+ - Name your project with a unique name (For example, include your name.)
+ - Finish by clicking the Create button.
 <!-- You must have access to a watsonx.ai SaaS environment and an initialized project within that environment. If you do not have one already, it can be provisioned on [TechZone](https://techzone.ibm.com/collection/tech-zone-certified-base-images/journey-watsonx) by selecting the **watsonx.ai/.governance SaaS** environment and selecting **Education** as **Purpose**. -->
 
 
@@ -40,7 +43,7 @@ TBA
 
 * Create a custom tool to access information not previously trained into an LLM
 * Use the WebCrawler tool to extract information from a specific web page
-* Integrate a Python interpreter to perform complex calculations
+<!-- * Integrate a Python interpreter to perform complex calculations -->
 * Use RAG to incorporate new information into an existing agent* Deploy an agent with a custom tool to incorporate business logic
 
 ## Lab Instructions
@@ -72,7 +75,7 @@ TBA
 9.  Now, we're going to try making an LLM call on a new standard without having any access to tools. Try the following prompt in AgentLab without any tools. 
 
     ```
-    Summarise the changes in ASIC's enhanced Banking Code of Practice?
+    Jaká je aktuální výše úrokových sazeb ČNB?
     ```
 
     ![image](./images/agentlab-2.png)
@@ -88,13 +91,13 @@ Now we'll add the Google Tool and try the same prompt:
 2. _Optional_: Add some sample questions that the end user can use to start interacting with the agent, like.:
 
     ```
-    Summarise the changes in ASIC's enhanced Banking Code of Practice?
+    Jaká je aktuální výše úrokových sazeb ČNB?
     ```
     
 3. Test your agent in the **Agent preview** pane to make sure the agent generates the correct result by using a combination of the foundation model and the relevant tools. You can now ask:
 
     ```
-    Summarise the changes in ASIC's enhanced Banking Code of Practice?
+    Jaká je aktuální výše úrokových sazeb ČNB?
     ```
 
     ![image](./images/agentlab-3.png)
@@ -110,7 +113,7 @@ What if we wanted to get details from a specific website? Well Billie could use 
 2. Test your agent in the **Agent preview** pane to make sure the agent generates the correct result by using a combination of the foundation model and the relevant tools. You can now ask:
 
     ```
-    Summarise CommBank's LMI policy from here: https://www.commbank.com.au/home-loans/lenders-mortgage-insurance.html
+    Co musím splnit abych dostal výhodnou úrokovou sazbu? Čerpej z následujícího webu: https://www.kb.cz/cs/obcane/pujcky/hypoteky/hypoteka
     ```
 
     ![image](./images/agentlab-4.png)
@@ -123,20 +126,18 @@ But Billie needs some more details, what if she had a specific document that she
 
 1. Save your agent in your project by clicking the save Icon on the top, and **Save as**. Select **Agent** and click **Save**.
 2. Navigate to your watsonx.ai project, and then click the **New asset > Ground gen AI with vectorized documents** tile.
-3. Upload the attached `lenders_mortgage_insurance.pdf` document, give it the following description, then click **Create**.
+3. Upload the attached `hypoteka-na-usporne-bydleni.pdf` document.
+4. Name it: `ČSOB - hypotéka na úsporné bydlení`
+5. give it the following description, then click **Create**.
     ```
-    The following document contains details about CommBank's lenders mortgage insurance policy. When it might apply, product disclosures, faqs and provides an overall guide.
+    TBA
     ```
 4. In your project, open your agent in the Agent Lab.
 5. In the **Tools** section, click **Add a tool** and select the **Document search** and select the `lenders_mortgage_insurance` vector index that your just created. Click **Select**.
 6. Just like that, you've enabled your agent to use RAG and ground some of it's answers in the document, you can test it by asking one of the following:
 
     ```
-    when would LMI apply?
-    ```
-
-    ```
-    what is the minimum deposit that would not require LMI?
+    Co musím split, abych mohl získat hypotéku na úsporné bydlení u ČSOB?
     ```
 
     ![image](./images/agentlab-5.png)
