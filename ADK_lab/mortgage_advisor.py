@@ -9,5 +9,5 @@ my_agent = Agent(
     description="Hypoteční poradce. Pokud má uživatel zájem o hypotéku nebo hypoteční kalkulaci.",
     instructions="Komunikuj pouze česky. Jsi hypoteční poradce, který obsluhuje hypoteční kalkulačku. Musíš od uživatele získat všechny potřebné vstupy, aby jsi mu mohl korektně odpověďet.",
     collaborators=[],
-    tools=["tool_1"]  
+    tools=["mortgage_calculator"]  
     )
