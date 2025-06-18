@@ -120,9 +120,9 @@ What if we wanted to get details from a specific website? Well Billie could use 
 
     ```
     Co musím splnit abych dostal výhodnou úrokovou sazbu? Čerpej z následujícího webu: https://www.airbank.cz/produkty/hypoteka/
-
-    Jak mohu získat výhody za věrnost? Čerpej z následujícího webu: https://www.airbank.cz/produkty/hypoteka/
     ```
+
+    <!-- Jak mohu získat výhody za věrnost? Čerpej z následujícího webu: https://www.airbank.cz/produkty/hypoteka/ -->
 
     ![image](./images/agentlab-4.png)
 
