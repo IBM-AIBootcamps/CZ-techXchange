@@ -24,7 +24,7 @@ Through a series of exercises, you will learn how to:
     - [Step 2: Add a `Google search` tool](#step-2-add-a-google-search-tool)
     - [Step 3: Add a `Webcrawler` tool](#step-3-add-a-webcrawler-tool)
     - [Step 4: Ingest documents for Q\&A](#step-4-ingest-documents-for-qa)
-    - [Step 5: Deploy your Agent](#step-7-deploy-your-agent)
+    - [Step 5: Deploy your Agent](#step-5-deploy-your-agent)
     - [Step 6: (Optional) New agent with a Custom Tool](#step-6-add-a-custom-tool)
   - [Conclusion](#conclusion)
   - [Additional Resources](#additional-resources)
@@ -158,16 +158,19 @@ But Billie needs some more details, what if she had a specific document that she
 You are now ready to deploy your agent as a new AI service:
 
 1. In the top action bar, click **Deploy**.
-2. Select your target deployment space. If you don't have one, you can [create](https://www.ibm.com/docs/en/watsonx/saas?topic=spaces-creating-deployment) one.
+2. Select target deployment space: `techxchange-deployment_space`
+    - Alternatively you could [create](https://www.ibm.com/docs/en/watsonx/saas?topic=spaces-creating-deployment) your own deployment space, but we won't do that here, please use the existing one..
 3. After a few seconds, your watsonx Agent will be initialized and deployed in the target deployment space.
 4. Once deployed, click on your new agent and test it by asking it any of the previous questions in the **Preview** section:
 
     ![image](./images/agentlab-7.png)
 
+5. **Important:** For the next Lab, copy and keep streaming public endpoint of your deployed agent. (ends with: `ai_service_stream`)
+
 This concludes the lab exercise.
 
 
-### Step 5: Add a Custom Tool
+### Step 6: (Optional) New agent with a Custom Tool
 
 Now let's say that the Bank introduces a new wealth builder fee of `$3000` over the life of the loan which gets added onto monthly payments, how could Billie factor this into her agent? This is where custom tools come in.
 
@@ -241,6 +244,3 @@ In this hands-on lab, you learned how to build agentic workflows using AgentLab.
 * watsonx.ai Agents quickstart: [link](https://www.ibm.com/watsonx/developer/agents/quickstart)
 * Agent Lab documentation: [link](https://www.ibm.com/docs/en/watsonx/saas?topic=solutions-agent-lab-beta)
 * watsonx Developer Hub: [link](https://developer.ibm.com/components/watsonx-ai)
-
-
-public se sreamem ulozit
