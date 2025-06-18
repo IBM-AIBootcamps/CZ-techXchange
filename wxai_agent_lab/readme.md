@@ -60,6 +60,7 @@ Through a series of exercises, you will learn how to:
 2. Select a foundation model and optionally update model parameters. Let's use model `llama-3-2-90b-vision-instruct`. For details, see [Foundation model configuration](#model).
     
 3. To set up your agent, specify a name for the agent and describe the tasks the agent performs in the **Setup** section.
+    - Set the name to something like `<YOUR-PREFIX>-watsonx-banking-agent`. Please use e.g. your last name or another unique string within this Lab as a prefix, so that you can distinguish your agent from the agents of other participants. 
     
 4. _Optional_: Select an icon and background image to customize how your agent appears in the **Agent Preview** pane.
     
@@ -181,6 +182,7 @@ Now let's say that the Bank introduces a new wealth builder fee of `$3000` over 
     ![image](./images/agentlab-1.png)
     - Select a foundation model and optionally update model parameters. Let's use model `llama-3-2-70b-instruct`. For details, see [Foundation model configuration](#model).
     - To set up your agent, specify a name for the agent and describe the tasks the agent performs in the **Setup** section.
+        - Set the name to something like `<YOUR-PREFIX>-watsonx-repayment calculator-agent`. Please use e.g. your last name or another unique string within this Lab as a prefix, so that you can distinguish your agent from the agents of other participants.
 3. Define specific instructions for your agent that is used to create a system prompt for the selected foundation model. The instructions can include using a specific language, date or time format, user greeting, or an external tool as an information source instead of a foundation model's knowledge base. 
     ```
     You are a helpful assistant that uses tools to answer questions in detail. Answer concisely and clearly. Always answer in Czech language.
@@ -234,6 +236,8 @@ Now let's say that the Bank introduces a new wealth builder fee of `$3000` over 
     ![image](./images/agentlab-6.png)
 
 **Note** that your agent is translating your query into a python calculation that he then performs to answer your question.
+ 
+3. You can try to deploy and test the agent. 
 
 ## Conclusion
 
