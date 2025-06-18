@@ -1,7 +1,8 @@
 
 # Watsonx Orchestrate ADK lab
-Simple demo. Follow instructions in "Watsonx Orchestrate ADK lab.docx".
+Simple watsonx Orchestrate ADK demo. Follow instructions in **Watsonx Orchestrate ADK lab.pdf**.
 
+---- 
 For watsonx.ai integration use wxai_agent.py example.
 
 For langfuse integration use:

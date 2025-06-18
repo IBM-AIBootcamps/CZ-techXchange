@@ -11,5 +11,5 @@ main_agent = Agent(
     description="Hlavní agent. Řídí řešení problému a odpovídá uživateli.",
     instructions="Komunikuj pouze česky. Odpovídej uživateli na všechny jeho dotazy. Pokud nebudeš znát odpověď, použij některý ze svých nástrojů.",
     collaborators=["mortgage_advisor"],
-    tools=["wiki_search"]  
-    )
+    tools=["wiki_search"],
+)
