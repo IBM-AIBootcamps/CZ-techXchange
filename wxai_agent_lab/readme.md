@@ -168,7 +168,10 @@ You are now ready to deploy your agent as a new AI service:
 
     ![image](./images/agentlab-7.png)
 
-5. **Important:** For the next Lab, copy and keep streaming public endpoint of your deployed agent. (ends with: `ai_service_stream`)
+5. **Important:** Required steps which are a prerequisite for the next lab. 
+    - For the next Lab, copy and keep streaming public endpoint of your deployed agent. (ends with: `ai_service_stream`). 
+    - Create and copy API key. Go to IBM [cloud](https://cloud.ibm.com), in the top menu bar click on **Manage** then on **Access (IAM)**. In the left menubar click on **API keys** and finally create your API key by clicking on the blue **Create** button. 
+    - Keep your **streaming public endpoint** and **API Key** for a next Lab.
 
 This concludes the lab exercise.
 
