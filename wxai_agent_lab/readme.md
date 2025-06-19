@@ -37,6 +37,7 @@ Through a series of exercises, you will learn how to:
     - Username: user_684add5a0c@techzone.ibm.com
     - Password: Password will be provided.
  - In the left menu bar click on **Resource list**, then in the **AI / Machine Learning** section find and click on **watsonx.ai Studio**.
+ - Next to the Launch in button click on dropdown arrow buton and select **IBM watsonx**.
  - On the IBM watsonx.ai welcome screen, scroll down and click the plus button in the projects section to create a project.
  - Name your project with a unique name (For example, include your name.)
  - Finish by clicking the Create button.
