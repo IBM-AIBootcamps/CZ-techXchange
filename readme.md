@@ -63,3 +63,10 @@ Located in `/wxo_lab`, this module covers:
 For any questions or issues, please refer to the specific lab documentation or contact the workshop facilitators.
 
 Happy Learning! 🚀
+
+---
+## Contributors
+
+- Marek Mařík: marek.marik@ibm.com
+- Ondřej Král: ondrej.kral@cz.ibm.com
+- Jan Garček: jan.garcek2@ibm.com
