@@ -1,6 +1,6 @@
 # 🤖 watsonx Agentic AI Bootcamp
 
-Welcome to the AI Bootcamp materials repository! This technical exchange event focuses on practical implementation of AI technologies using IBM watsonx platform and Agent Development Kit (ADK).
+Welcome to the AI Bootcamp materials repository! This technical exchange event focuses on practical implementation of AI Agents using IBM watsonx platform and Agent Development Kit (ADK).
 
 ![Image title](/instructors.png)
 
@@ -20,15 +20,14 @@ Located in `/wxai_agent_lab`, this module includes:
 ### 2. Watsonx Orchestrate ADK Lab
 Located in `/ADK_lab`, this module covers:
 - Introduction to Watsonx Orchestrate
-- Working with ADK (Agent Development Kit)
+- Working with watsonx Orchestrate ADK (Agent Development Kit)
 - Hands-on exercises with ADK implementation
 - Sample Python agent implementations
 
 
 ### 3. Watsonx Orchestrate Lab
 Located in `/wxo_lab`, this module covers:
-- Detailed walkthrough of Watsonx Orchestrate
-- Trial implementation guides
+- Detailed walkthrough of watsonx Orchestrate
 - Hands-on orchestration exercises
 - Importing external agents
 
@@ -47,7 +46,7 @@ Located in `/wxo_lab`, this module covers:
 ## Repository Structure
 
 ```
-├── ADK_lab/             # AI Development Kit laboratory materials
+├── ADK_lab/             # Agent Development Kit laboratory materials
 ├── wxai_agent_lab/      # Watsonx AI Agent practical exercises
 └── wxo_lab/             # Watsonx Orchestrate implementation guides
 ```
