@@ -36,6 +36,8 @@ Through a series of exercises, you will learn how to:
     - Url: https://cloud.ibm.com/authorize/itzwatsonx036
     - Username: user_684add5a0c@techzone.ibm.com
     - Password: Password will be provided.
+ - In the left menu bar click on **Resource list**, then in the **AI / Machine Learning** section find and click on **watsonx.ai Studio**.
+ - Next to the Launch in button click on dropdown arrow buton and select **IBM watsonx**.
  - On the IBM watsonx.ai welcome screen, scroll down and click the plus button in the projects section to create a project.
  - Name your project with a unique name (For example, include your name.)
  - Finish by clicking the Create button.
@@ -166,7 +168,10 @@ You are now ready to deploy your agent as a new AI service:
 
     ![image](./images/agentlab-7.png)
 
-5. **Important:** For the next Lab, copy and keep streaming public endpoint of your deployed agent. (ends with: `ai_service_stream`)
+5. **Important:** Required steps which are a prerequisite for the next lab. 
+    - For the next Lab, copy and keep streaming public endpoint of your deployed agent. (ends with: `ai_service_stream`). 
+    - Create and copy API key. Go to IBM [cloud](https://cloud.ibm.com), in the top menu bar click on **Manage** then on **Access (IAM)**. In the left menubar click on **API keys** and finally create your API key by clicking on the blue **Create** button. 
+    - Keep your **streaming public endpoint** and **API Key** for a next Lab.
 
 This concludes the lab exercise.
 
