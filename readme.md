@@ -65,6 +65,21 @@ For any questions or issues, please refer to the specific lab documentation or c
 Happy Learning! 🚀
 
 ---
+
+## Environments for IBMers and Business Partners
+
+Available from IBM Techzone.
+
+Environment with ADK (Agent Development Kit) and watsonx Orchestrate Developer Edition - https://techzone.ibm.com/collection/ibm-watsonx-orchestrate-sdk  
+Useful when you want to quickly start with ADK and do not have time or skills to install it on your machine.  
+See Resources section for additional hands-on labs and credentials.  
+See Environments section for the reservation of the environment itself and reserve "IBM watsonx Orchestrate ADK and DBA - US East Only" with latest version (2025.06.16 - v 1.5.1 at the time of writing)
+
+Environment with SaaS watsonx Orchestrate - https://techzone.ibm.com/collection/tech-zone-certified-base-images/journey-watsonx  
+Useful when you want access to SaaS wxO or want to try pushing from local ADK to Saas.  
+Look for "watsonx Orchestrate Trial/Standard plan" environment.  
+Adding direct reservation link for convenience https://techzone.ibm.com/my/reservations/create/66bcefdfc428e2fc24fa105f
+
 ## Contributors
 
 - Marek Mařík: marek.marik@ibm.com
