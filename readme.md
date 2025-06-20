@@ -58,6 +58,30 @@ Located in `/wxo_lab`, this module covers:
 - Visual aids and screenshots
 - Sample code and implementations
 
+
+## Environments for IBMers and Business Partners
+
+Available from IBM Techzone.
+
+### watsonx Orchestrate ADK
+Environment with ADK (Agent Development Kit) and watsonx Orchestrate Developer Edition - https://techzone.ibm.com/collection/ibm-watsonx-orchestrate-sdk  
+Useful when you want to quickly start with ADK and do not have time or skills to install it on your machine.  
+See Resources section for additional hands-on labs and credentials.  
+See Environments section for the reservation of the environment itself and reserve "IBM watsonx Orchestrate ADK and DBA - US East Only" with latest version (2025.06.16 - v 1.5.1 at the time of writing)
+
+### watsonx Orchestrate
+Environment with SaaS watsonx Orchestrate - https://techzone.ibm.com/collection/tech-zone-certified-base-images/journey-watsonx  
+Useful when you want access to SaaS wxO or want to try pushing from local ADK to Saas.  
+Look for "watsonx Orchestrate Trial/Standard plan" environment.  
+Adding direct reservation link for convenience: https://techzone.ibm.com/my/reservations/create/66bcefdfc428e2fc24fa105f
+
+
+### watsonx.ai with Student ID
+Environment with SaaS watsonx.ai - https://techzone.ibm.com/collection/tech-zone-certified-base-images/journey-watsonx  
+Useful when you want access to SaaS wx.ai without creating IBM ID.  
+Look for "watsonx.ai and watsonx.governance with Student Id" environment.  
+Adding direct reservation link for convenience: https://techzone.ibm.com/my/reservations/create/67ffe65700fa13614f464f9f
+
 ---
 
 For any questions or issues, please refer to the specific lab documentation or contact the workshop facilitators.
@@ -66,22 +90,8 @@ Happy Learning! 🚀
 
 ---
 
-## Environments for IBMers and Business Partners
+## Authors
 
-Available from IBM Techzone.
-
-Environment with ADK (Agent Development Kit) and watsonx Orchestrate Developer Edition - https://techzone.ibm.com/collection/ibm-watsonx-orchestrate-sdk  
-Useful when you want to quickly start with ADK and do not have time or skills to install it on your machine.  
-See Resources section for additional hands-on labs and credentials.  
-See Environments section for the reservation of the environment itself and reserve "IBM watsonx Orchestrate ADK and DBA - US East Only" with latest version (2025.06.16 - v 1.5.1 at the time of writing)
-
-Environment with SaaS watsonx Orchestrate - https://techzone.ibm.com/collection/tech-zone-certified-base-images/journey-watsonx  
-Useful when you want access to SaaS wxO or want to try pushing from local ADK to Saas.  
-Look for "watsonx Orchestrate Trial/Standard plan" environment.  
-Adding direct reservation link for convenience https://techzone.ibm.com/my/reservations/create/66bcefdfc428e2fc24fa105f
-
-## Contributors
-
+- Jan Garček: jan.garcek2@ibm.com
 - Marek Mařík: marek.marik@ibm.com
 - Ondřej Král: ondrej.kral@cz.ibm.com
-- Jan Garček: jan.garcek2@ibm.com
